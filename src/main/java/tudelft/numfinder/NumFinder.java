@@ -3,7 +3,6 @@ package tudelft.numfinder;
 public class NumFinder {
     private int smallest = Integer.MAX_VALUE;
     private int largest = Integer.MIN_VALUE;
-
     public void find(int[] nums) {
         for(int n : nums) {
 
